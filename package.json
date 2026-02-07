@@ -20,5 +20,10 @@
   "workspaces": [
     "apps/*",
     "packages/*"
-  ]
+  ],
+  "dependencies": {
+    "@types/ws": "^8.18.1",
+    "fabric": "^7.1.0",
+    "ws": "^1.0.0"
+  }
 }

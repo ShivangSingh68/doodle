@@ -1,0 +1,16 @@
+{
+  "extends": "@repo/typescript-config/base.json",
+  "compilerOptions": {
+    "rootDir": "./src",
+    "outDir": "./dist",
+
+    // 🔑 REQUIRED for ws + ts-node
+    "module": "CommonJS",
+    "moduleResolution": "Node",
+    "esModuleInterop": true,
+
+    // nice-to-have
+    "types": ["node"]
+  },
+  "include": ["src"]
+}
